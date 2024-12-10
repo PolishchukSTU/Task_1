@@ -1,0 +1,150 @@
+---
+title: "Task1"
+author: "Oleksandr Polishchuk"
+date: "10/01/2024"
+format:
+  html:
+    embed-resources: true
+editor: source
+---
+
+## Question 1 
+
+Question description
+
+```{r}
+# code for solving task
+# Character
+char_var <- "Hello, World!"
+
+# Numeric
+num_var <- 3.14
+
+# Integer
+int_var <- 42L  # The 'L' indicates that this is an integer
+
+# Complex
+comp_var <- 2 + 3i  # 'i' denotes the imaginary unit
+
+# Logical
+log_var <- TRUE  # Can also be FALSE
+
+# Print the variables
+print(char_var)
+print(num_var)
+print(int_var)
+print(comp_var)
+print(log_var)
+
+```
+
+
+## Question 2
+
+Question description Create the next vectors: *sequence from 5 to 75; * numbers: 3.14, 2.71, 0, 13; * with 100 TRUE values.
+
+```{r}
+# code for solving task
+# Sequence from 5 to 75
+seq_var <- 5:75
+
+# Numbers vector
+num_vector <- c(3.14, 2.71, 0, 13)
+
+# Vector with 100 TRUE values
+true_vector <- rep(TRUE, 100)
+
+# Print the vectors
+print(seq_var)
+print(num_vector)
+print(true_vector)
+
+```
+
+
+## Question 3 
+
+Question description Create the next matrix:
+
+```{r}
+# code for solving task
+# Create a matrix
+matrix_var <- matrix(c(12, 34, 87, 
+                        -12, -12.1, 0, 
+                        3.6, 0.5, 1.3), 
+                      nrow = 3, byrow = TRUE)
+
+# Print the matrix
+print(matrix_var)
+
+```
+## Question 4
+
+Question description
+4. Create a 'list' with all atomic times.
+
+```{r}
+# code for solving task
+# Create a list
+list_var <- list(character = char_var, 
+                  numeric = num_var, 
+                  integer = int_var, 
+                  complex = comp_var, 
+                  logical = log_var)
+
+# Print the list
+print(list_var)
+
+  
+```
+
+## Question 5
+
+Question description
+Create a 'factor' with 3 levels: 'infant' , 'child' , 'adult'.
+
+```{r}
+# code for solving task
+# Create a factor
+factor_var <- factor(c("infant", "child", "adult"), levels = c("infant", "child", "adult"))
+
+# Print the factor
+print(factor_var)
+
+```
+
+## Question 6
+
+Question description
+Create a 'data frame'
+
+```{r}
+# Create a data frame
+data_frame_var <- data.frame(
+  Name = c("Alice", "Bob", "Charlie"),
+  Age = c(5, 10, 20),
+  Score = c(95.5, 88.0, 76.5)
+)
+
+# Print the data frame
+print(data_frame_var)
+
+```
+
+## Question 7
+
+Question description
+Change column names of the 'data frame'
+
+```{r}
+# Change column names
+colnames(data_frame_var) <- c("Student_Name", "Student_Age", "Student_Score")
+
+# Print the updated data frame
+print(data_frame_var)
+
+```
+
+
+
+
